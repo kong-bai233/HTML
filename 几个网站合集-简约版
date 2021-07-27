@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+        a{text-decoration:none;}
+        h1{
+            font-size: xx-large;
+            color: black;
+        }
+        h3{
+            font-size:xx-large;
+            color: hotpink;
+        }
+        h4{
+            font-size: xx-large;
+            color: rgb(226, 76, 21);
+        }
+        h5{
+            font-size: xx-large;
+            color: rgb(92, 214, 255);
+        }
+        h6{
+            font-size: xx-large;
+            color: rgb(21, 79, 255);
+        }
+        </style>
+        <title>几个网站合集-简约版</title>
+        <body>
+            <a href="https://github.com/"><h1 style="text-align: center;">GitHub</h1></a>
+            <a href="https://www.bilibili.com/"><h3 style="text-align: center;">B站</h3></a>
+            <a href="https://www.csdn.net/?spm=1001.2014.3001.4476"><h4 style="text-align: center;">CSDN社区</h4></a>
+            <a href="https://www.zhihu.com/"><h1><h5 style="text-align: center;">知乎</h5></h1></a>
+            <a href="https://workbench.aliyun.com/"><h6 style="text-align: center;">阿里云开发平台</h6></a>
+            <a href="https://www.cnblogs.com/"><h6 style="text-align: center;">博客园</h6></a>
+            <h6 style="text-align: center;"><a href="https://cloud.tencent.com/?fromSource=gwzcw.2212127.2212127.2212127&utm_medium=cpd&utm_id=gwzcw.2212127.2212127.2212127">腾讯云开发平台</a></h6>
+        </body>
+    </head>
+</html>
