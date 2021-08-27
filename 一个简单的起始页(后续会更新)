@@ -3,7 +3,7 @@
     <head>
         <title>XX起始页</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="1.css">
+    <link rel="stylesheet" type="text/css" href="1.css"> 这里要链接的css需要你自己写（不写也不影响）
     </head>
     <body>
         <div id="container">
