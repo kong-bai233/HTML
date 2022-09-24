@@ -5,6 +5,14 @@
     <meta charset="utf-8">
     <style>
         a{text-decoration:none;}
+        body {
+    /* 长按鼠标并滑动的时候回选中框内的内容，这里禁止选中所有文本。 */
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+  }
         #box{
             text-align: center;
             height: 100px;
@@ -36,15 +44,35 @@
             width: 22px;
             height: 22px;
         }
+        #gitee{
+            margin-left: 10%;
+            width: 22px;
+            height: 22px;
+            font-size: x-large;
+        }
+        #Iconfont{
+            width: 22px;
+            height: 22px;
+            font-size: x-large;
+        }
+        #baidu{
+            margin-left: 10%;
+            width: 22px;
+            height: 22px;
+            font-size: x-large;
+            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        }
         /*阴影效果，可自行更改*/
         /*#s{
-            box-shadow: rgb(66,66,66) 15px 20px 30px;
+            box-shadow: rgb(66,66,66) 15px 20px 30px,
+            inset rgb(66, 66, 66) -10px 10px 25px;
             height: 100px;
             width: 900px;
         }
         #h{
-            box-shadow: rgb(66, 66, 66) 15px 20px 30px;
-        }
+            box-shadow: rgb(66, 66, 66) 15px 20px 30px,
+            inset rgb(66, 66, 66) -10px 10px 25px;
+        }*/
         #time{
             text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
         }
@@ -56,7 +84,36 @@
         }
         #csdn{
             text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-        }*/
+        }
+        #gitee{
+            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        }
+        #Iconfont{
+            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        }
+        #s{
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
+     0px 0px 0px rgba(255, 255, 255, 1),
+    12px 12px 20px rgba(0, 0, 0, 0.2) inset,
+     -12px -12px 20px rgba(255, 255, 255, 1) inset;
+            height: 100px;
+            width: 900px;
+            opacity: 1;
+        }
+        #s:active{
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2) inset,
+      -10px -10px 30px rgba(255, 255, 255, 1) inset;
+        }
+        #h{
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
+     0px 0px 0px rgba(255, 255, 255, 1),
+    12px 12px 20px rgba(0, 0, 0, 0.2) inset,
+     -12px -12px 20px rgba(255, 255, 255, 1) inset;
+        }
+        #h:active{
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2) inset,
+      -10px -10px 30px rgba(255, 255, 255, 1) inset;
+        }
     </style>
     <link rel="stylesheet" type="text/css" href="1.css">
     </head>
@@ -105,9 +162,14 @@
         </form>
         </div>
         <div id="box">
-            <a href="https://www.bilibili.com/" id="bili"><img src="pic/bilibili.png"> 哔哩哔哩</a>
-            <a href="https://github.com/" id="github"><img src="pic/github.png" id="gitimg"> GitHub</a>
-            <a href="https://www.csdn.net/" id="csdn"><img src="pic/csdn.png" id="gitimg"> CSDN</a>
+            <a href="https://www.bilibili.com/" id="bili" target="_blank"><img src="pic/bilibili.png"> 哔哩哔哩</a>
+            <a href="https://github.com/" id="github" target="_blank"><img src="pic/github.png" id="gitimg"> GitHub</a>
+            <a href="https://www.csdn.net/" id="csdn" target="_blank"><img src="pic/csdn.png" id="gitimg"> CSDN</a>
+        </div>
+        <div id="box"> 
+            <a href="https://www.iconfont.cn/" id="Iconfont" target="_blank"><img src="pic/Iconfont.png" id="gitimg"> Iconfont</a>
+            <a href="https://gitee.com/dashboard" id="gitee" target="_blank"><img src="pic/gitee.png" id="gitimg"> Gitee</a>
+            <a href="https://cloud.baidu.com/" id="baidu" target="_blank"><img src="pic/baidu.png" id="gitimg"> 百度云</a>
         </div>
 </body>
 </html>
